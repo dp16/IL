@@ -21,7 +21,7 @@
 <a href="#">Menu Categories</a>
 <a href="#">Sub Menu 6</a>
 </div>
-  
+
 <!--  <li><a href="http://datnewcudi.com/forums/index.php?action=register">Register</a></li>
   <li><a href="http://datnewcudi.com/forums/index.php?action=profile">Profile</a></li>-->
   <div class="category-nav-item">
@@ -33,11 +33,11 @@
   										 <a title="<?php the_title(); ?>" href="<?php the_permalink() ?>" rel="bookmark"><?php the_title(); ?></a>
   										 <div class="postdatenav"><?php the_time('M. j, Y'); ?> | Paris</div>
   										 <div class="clear"></div>
-  									</div>				
-  
+  									</div>
+
   							<?php endwhile; ?>
   							<?php wp_reset_query(); ?></div>
-  
+
   </ul>
 </li>
 
@@ -54,7 +54,7 @@
 
 
 
- 
+
 
 </div>
 
@@ -66,12 +66,12 @@
 </div>
 
 
-<div id="search-bar-nav"> 
-           <form method="get" id="searchform1" action="<?php bloginfo('url'); ?>"> 
-<input type="text" value="Search" onfocus="if (this.value=='Search') this.value='';" name="s" id="searchinput" /> 
-               <input type="image" src="<?php bloginfo('template_directory'); ?>/images/search-nav.png" id="searchsubmit" /> 
-           </form> 
-       </div> 
+<div id="search-bar-nav">
+           <form method="get" id="searchform1" action="<?php bloginfo('url'); ?>">
+<input type="text" value="Search" onfocus="if (this.value=='Search') this.value='';" name="s" id="searchinput" />
+               <input type="image" src="<?php bloginfo('template_directory'); ?>/images/search-nav.png" id="searchsubmit" />
+           </form>
+       </div>
 
 
 </div>
@@ -80,7 +80,7 @@
 <?php if( is_front_page() ) : ?>
 
 <div id="slider-contain">
-<?php echo slider_pro(1); ?>
+<?php // echo slider_pro(1); ?>
 </div>
 
 <div id="home300-c">    <div id="home300">  <p>ADVERTISEMENT</p>  <a href="#"><img src="http://img-cdn.mediaplex.com/0/16492/158869/en_300x250_acv_bottombarrel_c01.jpg"></a>
