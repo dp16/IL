@@ -93,9 +93,9 @@ function dp_after_module( $post ){
 
 	function starkers_script_enqueuer() {
 
-		wp_register_script( 'inf-scroll', get_template_directory_uri().'/js/jquery.infinitescroll.min.js', array( 'jquery' ) );
+		//wp_register_script( 'inf-scroll', get_template_directory_uri().'/js/jquery.infinitescroll.min.js', array( 'jquery' ) );
 
-		wp_register_script( 'site', get_template_directory_uri().'/js/site.js', array( 'jquery', 'inf-scroll' ) );
+		wp_register_script( 'site', get_template_directory_uri().'/js/site.js', array( 'jquery' ) );
 		wp_enqueue_script( 'site' );
 
 		wp_register_style( 'screen', get_stylesheet_directory_uri().'/style.css', '', '', 'screen' );
